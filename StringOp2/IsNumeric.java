@@ -1,0 +1,13 @@
+package StringOp2;
+
+public class IsNumeric {
+    public static void main(String[] args) {
+        String input = "123456";
+        System.out.println("Is numeric? " + isNumeric(input));
+    }
+
+    public static boolean isNumeric(String str) {
+        return str.matches("\\d+");
+    }
+}
+
